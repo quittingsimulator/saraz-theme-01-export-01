@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["marcus.veres@gmail.com"]
 
   spec.summary       = "This is a test of saraz-theme-01. The very first test, known as export-01."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/quittingsimulator/saraz-theme-01-export-01.git"
   spec.license       = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i) } 
