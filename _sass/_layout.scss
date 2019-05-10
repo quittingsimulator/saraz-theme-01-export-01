@@ -1,0 +1,63 @@
+/**
+ * Site header
+ */
+.site-header {
+    background: #faf9f5;
+    border-top: 5px solid $title-color;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+    text-align: center;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 56px;
+    margin-bottom: 0;
+
+    &,
+    &:visited {
+        color: $title-color;
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin: $spacing-unit;
+}
+
+
+
+/**
+ * Error pages
+ */
+.error {
+    text-align: center;
+}
